@@ -1,0 +1,14 @@
+warning: in the working copy of 'App.tsx', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/App.tsx b/App.tsx[m
+[1mindex 0329d0c..20cd028 100644[m
+[1m--- a/App.tsx[m
+[1m+++ b/App.tsx[m
+[36m@@ -4,7 +4,7 @@[m [mimport { StyleSheet, Text, View } from 'react-native';[m
+ export default function App() {[m
+   return ([m
+     <View style={styles.container}>[m
+[31m-      <Text>Open up App.tsx to start working on your app!</Text>[m
+[32m+[m[32m      <Text>Hello world</Text>[m
+       <StatusBar style="auto" />[m
+     </View>[m
+   );[m
